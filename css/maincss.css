@@ -110,11 +110,15 @@ th.inf,tr.inf{
   list-style-type: none;
   padding-left: 0.5%;
   padding-right: 0.5%;
+  padding-bottom: 0.5%;
+  padding-top:0.5%;
   border-radius: 10px;
   background-color:#ffffff;
   opacity: 0.5;
   margin-left:0.1%;
   margin-right:0.1%;
+  margin-top:0.1%;
+  margin-bottom:0.1%;
   display:inline-block;
   width:30%;
   position: absolute;
