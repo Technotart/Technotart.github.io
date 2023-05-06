@@ -1,10 +1,6 @@
 @font-face {
   font-family: "Fira Sans";
-  src: url('../fonts/CoffeCake.otf');
-  src: url('../fonts/CoffeCake.otf') format('embedded-opentype'),
-       url('../fonts/CoffeCake.ttf') format('truetype');
-         font-weight:bold;
-  font-style:italic;
+src: url('../fonts/RobotoSlab-Regular.ttf') format('truetype');
 }
 
 body{ 
