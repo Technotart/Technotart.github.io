@@ -1,3 +1,11 @@
+function myFunction() {
+  var z = document.getElementById("myTopnav");
+  if (z.className === "topnav") {
+    z.className += " responsive";
+  } else {
+    z.className = "topnav";
+  }
+}
 function validate() {
   let x = document.forms["myform"]["fullname"].value;
   if (x == "") {
