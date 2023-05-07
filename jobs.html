@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>My Jobs</title> 
-  <link rel="stylesheet" href="css\maincss.css">
+  <link rel="stylesheet" href="css/maincss.css">
   <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="/resources/demos/style.css">
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
@@ -19,6 +19,7 @@
   </script>
 </head>
 <body class="jobspage">
+  <div class="container">
    <script src="js/jss1.js"></script>
   <!--Header-->
   <header> 
@@ -39,7 +40,7 @@
 (At Dwerly)</h3>
   <div>
     <h4>January 1st&ndash;2022&mdash;&mdash;December 22nd&ndash;2022  Tartus, SY</h4>
-    <p>
+    <p style="background-color:#ffffff;font-size: 150%;font-color:#987ab3;">
 Entering data about clients, advertisments, places in all syrian cities
     </p>
   </div>
@@ -48,7 +49,7 @@ Entering data about clients, advertisments, places in all syrian cities
 (Online)</h3>
   <div>
     <h4>March 1st&ndash;2021&mdash;&mdash;September 1st&ndash;2021  WordPress website</h4>
-    <p>
+   <p style="background-color:#ffffff;font-size: 150%;font-color:#987ab3;">
 Writing articles and translating others and publishing in wordpress website
     </p>
   </div>
@@ -56,7 +57,7 @@ Writing articles and translating others and publishing in wordpress website
 (At Electricity company)</h3>
   <div>
      <h4>October 1st&ndash;2015&mdash;&mdash;Now&ndash;  Tartus,SY</h4>
-    <p>
+<p style="background-color:#ffffff;font-size: 150%;font-color:#987ab3;">
   Fix server issues and install required programs
     </p>
   </div>
@@ -70,17 +71,16 @@ Writing articles and translating others and publishing in wordpress website
                      </div>
                          <div id="contact-form">
                               <form name ="myform" action="/action_page.php" onsubmit="return validate()" method="post" >
-                            
-                                        <input name="fullname" type="text" class="form-control" id="fullname" placeholder="Your Name">
-                                 
+                                         <label for="fullname">Your name:</label><br>
+                                        <input name="fullname" type="text"  id="fullname" placeholder="Your Name">
+                                 <label for="email">Your Email:</label><br>
                                    
-                                        <input name="email" type="email" class="form-control" id="email" placeholder="Your Email">
+                                        <input name="email" type="email"  id="email" placeholder="Your Email">
                                   
-                                   
-                                        <textarea name="message" rows="5" class="form-control" id="message" placeholder="Write your message..."></textarea>
-                                   
-                    
-                                        <input name="submit" type="submit" class="form-control" id="submit" value="Send">
+                                   <label for="message">Your message:</label><br>
+                                        <textarea name="message" rows="5"  id="message" placeholder="Write your message..."></textarea>
+                               <label for="submit">Send</label><br>
+                                        <input name="submit" type="submit" id="submit" value="Send">
                             
                               </form>
                          </div>
@@ -98,15 +98,15 @@ Writing articles and translating others and publishing in wordpress website
 
                   
 </section>
-
+</div>
         <footer>
   <div class="contactme">
 <p>Copyright &copy; 2023 Personal
  | Design:Ragheb Yossof <a href="#" target="_parent">Top.of.Page</a></p>      
 <ul class="foot">
-<li><a href="https://www.facebook.com/raghebsnow232" target="_blank" class="fa fa-facebook"></a></li>
-<li><a href="https://www.twitter.com/alking-bayern" target="_blank" class="fa fa-twitter"></a></li>
-<li><a href="https://www.linkedin.com/in/ragheb-y-333453265" target="_blank" class="fa fa-linkedin"></a></li> 
+<li><a style="background-color:#f5edd0;" href="https://www.facebook.com/raghebsnow232" target="_blank" class="fa fa-facebook">Facebook</a></li>
+<li><a style="background-color:#f5edd0;" href="https://www.twitter.com/alking-bayern"  target="_blank" class="fa fa-twitter">Twitter</a></li>
+<li><a  style="background-color:#f5edd0;" href="https://www.linkedin.com/in/ragheb-y-333453265" target="_blank" class="fa fa-linkedin">Linked in</a></li> 
 </ul>
 </div>
         </footer>
