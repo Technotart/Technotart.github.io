@@ -1,7 +1,7 @@
 @font-face {
  font-family: "Fira Sans";
   src: url('../fonts/RobotoSlab-Regular.ttf') format('truetype'),
-  src:url('../fonts/SFPRODISPLAYBLACKITALIC.OTF') format('opentype'),
+  src:url('../fonts/SFPRODISPLAYBLACKITALIC.OTF') format('OpenType'),
       url('../fonts/CoffeCake.otf') format('opentype');
 }
 
