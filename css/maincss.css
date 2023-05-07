@@ -1,7 +1,8 @@
 @font-face {
-  font-family: "Fira Sans";
-  src: url('../fonts/RobotoSlab-Regular.ttf') format('truetype');
-  src:url('../fonts/SFPRODISPLAYBLACKITALIC.OTF') format('opentype');
+ font-family: "Fira Sans";
+  src: url('../fonts/RobotoSlab-Regular.ttf') format('truetype'),
+  src:url('../fonts/SFPRODISPLAYBLACKITALIC.otf') format('opentype'),
+      url('../fonts/CoffeCake.otf') format('opentype');
 }
 
 body{ 
@@ -12,7 +13,7 @@ body{
       #eee,
       #ccc 50px
     );
-     font-family: "Fira Sans", "PT Sans", Calibri, Tahoma, sans-serif;
+     font-family: "Fira Sans",Calibri,Tahoma, "PT Sans";
 }
 h1{
 	font-size: 200%;
