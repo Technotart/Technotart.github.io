@@ -1,11 +1,18 @@
 @font-face {
- font-family: "Fira Sans";
-  src: url('../fonts/RobotoSlab-Regular.ttf') format('truetype'),
-  src:  url('../fonts/CoffeCake.otf') format('opentype'),
-	  url('../fonts/SFPRODISPLAYBLACKITALIC.OTF') format('OpenType');
-    
+  font-family: "Fira Sans";
+  src: url('../fonts/RobotoSlab-Regular.ttf') format('truetype');
+  src:url('../fonts/SFPRODISPLAYBLACKITALIC.otf') format('opentype');
 }
-
+    
+.container{
+  min-height: 100vh;
+  margin-bottom:-75px; 
+}
+ .container:after{
+  content: "";
+  display: block;
+  height:75px;
+ }
 body{ 
    background-color: red;
      background: 
@@ -14,8 +21,8 @@ body{
       #eee,
       #ccc 50px
     );
-     font-family: "Fira Sans",Calibri,Tahoma, "PT Sans";
-	  font-weight: bold;
+     font-family: "Fira Sans", "PT Sans", Calibri, Tahoma, sans-serif;
+     font-weight: bold;
      font-style: italic;
 }
 h1{
@@ -42,11 +49,7 @@ h1{
 a{
 	text-decoration: none;
 }
-footer{
-	clear:both;
-	text-align: center;
-  margin-top:10%;
-}
+
 header{
 	margin:0 auto;
 	text-align: center;
@@ -115,15 +118,11 @@ th.inf,tr.inf{
   list-style-type: none;
   padding-left: 0.5%;
   padding-right: 0.5%;
-  padding-bottom: 0.5%;
-  padding-top:0.5%;
   border-radius: 10px;
   background-color:#ffffff;
   opacity: 0.5;
   margin-left:0.1%;
   margin-right:0.1%;
-  margin-top:0.1%;
-  margin-bottom:0.1%;
   display:inline-block;
   width:35%;
   position: absolute;
@@ -133,8 +132,8 @@ th.inf,tr.inf{
 }
 li{
 	display:inline-block;
-	margin:1%;
-	padding:2%;
+	margin:0.5%;
+	padding:1%;
 	border: 5px double red;
 	background-color:#c2c2c2;
 	}
@@ -151,6 +150,7 @@ li a:hover {
 p{
 font-family: Arial,"sans-serif";
 font-size:115%;
+font-weight: bold;
 padding:0.5%;
 margin:0.5%;
 
@@ -260,7 +260,15 @@ div.desc {
   float: left;
   width: 19%;
 }
-
+h4{
+  font-size:120%;
+  font-weight:bold;
+  font-style: italic;
+}
+img{
+  width:600px;
+  height:500px;
+}
 @media only screen and (max-width: 700px) {
   .responsive {
     width: 50%;
@@ -317,6 +325,13 @@ hr{
   margin:0 auto;
   margin-top:2%;
 }
+label{
+  text-align: center;
+  margin:0 auto;
+  display:block;
+  
+  margin-top:1%;
+}
 input,textarea{
   border: 2px solid red;
   border-radius: 4px;
@@ -326,14 +341,19 @@ input,textarea{
 input:focus,textarea:focus {
   background-color:lightblue;
 }
+footer{
+  clear:both;
+  text-align: center;
+  height:75px;
+}
 
 .foot {
   list-style-type: none;
   padding: 0.5%;
   border: 1px solid blue;
   border-radius: 10px;
-  background-color:#ffffff;
-  opacity: 0.5;
+  background-color:#f2f2f2;
+  opacity:1;
   margin:1%;
   display: inline-block;
   width:45%;
