@@ -10,7 +10,7 @@
   <link rel="stylesheet" href="/resources/demos/style.css">
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
- 
+  <script src="js/jss1.js"></script>
   <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
    <script>
   $( function() {
@@ -20,19 +20,24 @@
 </head>
 <body class="jobspage">
   <div class="container">
-   <script src="js/jss1.js"></script>
-  <!--Header-->
   <header> 
     <h1>
     Who Am I ?
     </h1>
-
-  <ul class="navigation">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="jobs.html">Jobs</a></li>
-      <li><a href="education.html">Education</a></li>
-      <li><a href="photos.html">photos</a></li>
-        </ul>
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active"> <span><i class="fa fa-home" aria-hidden="true"></i>
+  </span>Home
+  </a>
+  <a href="jobs.html"><span><i class="fa fa-laptop" aria-hidden="true"></i>
+  </span>Jobs</a>
+  <a href="education.html"><span><i class="fa fa-book" aria-hidden="true"></i>
+  </span>Education</a>
+  <a href="photos.html"><span><i class="fa fa-picture-o" aria-hidden="true"></i>
+</span>photos</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
   </header>
   <h2 style="display:block;width:100%;text-align:center;padding:1%;margin-bottom:0.1%;">My jobs</h2>
 <div id="accordion">
@@ -104,9 +109,10 @@ Writing articles and translating others and publishing in wordpress website
 <p>Copyright &copy; 2023 Personal
  | Design:Ragheb Yossof <a href="#" target="_parent">Top.of.Page</a></p>      
 <ul class="foot">
-<li><a style="background-color:#f5edd0;" href="https://www.facebook.com/raghebsnow232" target="_blank" class="fa fa-facebook">Facebook</a></li>
-<li><a style="background-color:#f5edd0;" href="https://www.twitter.com/alking-bayern"  target="_blank" class="fa fa-twitter">Twitter</a></li>
-<li><a  style="background-color:#f5edd0;" href="https://www.linkedin.com/in/ragheb-y-333453265" target="_blank" class="fa fa-linkedin">Linked in</a></li> 
+<li><a  href="https://www.facebook.com/raghebsnow232" target="_blank" class="fa fa-facebook fa-2x">Facebook</a></li>
+<li><a  href="https://www.twitter.com/alking-bayern"  target="_blank" class="fa fa-twitter fa-2x">Twitter</a></li>
+<li><a  href="https://www.linkedin.com/in/ragheb-y-333453265" target="_blank" class="fa fa-linkedin fa-2x">Linked in</a>
+</li> 
 </ul>
 </div>
         </footer>
