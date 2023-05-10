@@ -1,10 +1,4 @@
-@font-face {
-  font-family: "Fira Sans";
-  src: url('../fonts/RobotoSlab-Regular.ttf') format('truetype');
-  src:url('../fonts/SFPRODISPLAYBLACKITALIC.otf') format('opentype');
-}
-    
-.container{
+ .container{
   min-height: 100vh;
   margin-bottom:-75px; 
 }
@@ -37,28 +31,28 @@ li a:hover {
      background-color:#ffffff;
      background: linear-gradient(to right,#8360c3,#2ebf91);
      opacity: 0.95;
-     font-family: "Fira Sans", "PT Sans", Calibri, Tahoma, sans-serif;
+     font-family: "PT Sans", Calibri, Tahoma, sans-serif;
      font-weight: bold;
      font-style: italic;
 }
 .homepage{
      background-color:#ffffff;
      background: url('../images/brown.jpeg');
-     font-family: "Fira Sans", "PT Sans", Calibri, Tahoma, sans-serif;
+     font-family: "PT Sans", Calibri, sans-serif;
      font-weight: bold;
      font-style: italic;
 }
 .jobspage{
      background-color:#ffffff;
      background: url('../images/sunset.jpg');
-     font-family: "Fira Sans", "PT Sans", Calibri, Tahoma, sans-serif;
+     font-family:Calibri, "PT Sans", Tahoma, sans-serif;
      font-weight: bold;
      font-style: italic;
 }
 .educationpage{
      background-color:#ffffff;
      background: url('../images/heart.jpg');
-     font-family: "Fira Sans", "PT Sans", Calibri, Tahoma, sans-serif;
+     font-family: Tahoma,"PT Sans", Calibri, Tahoma, sans-serif;
      font-weight: bold;
      font-style: italic;
 }
