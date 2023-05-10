@@ -63,44 +63,44 @@ li a:hover {
      font-style: italic;
 }
 h1{
-	font-size: 200%;
-	background-color:#fcf3cf ;
-	opacity: 0.8;
-	width: 30%;
-	margin: 0 auto;
-	padding: 1%;
-	border: 1px solid  #000000 ;
-	border-radius: 30px;
+  font-size: 200%;
+  background-color:#fcf3cf ;
+  opacity: 0.8;
+  width: 30%;
+  margin: 0 auto;
+  padding: 1%;
+  border: 1px solid  #000000 ;
+  border-radius: 30px;
 }
 #left{
-	float:left;
-	width:45%;
-	padding-top:1%;
+  float:left;
+  width:45%;
+  padding-top:1%;
 }
 .right{
-	float:right;
-	width:45%;
-	padding-top:1%;
+  float:right;
+  width:45%;
+  padding-top:1%;
 
 }
 a{
-	text-decoration: none;
+  text-decoration: none;
 }
 
 header{
-	margin:0 auto;
-	text-align: center;
-	margin-bottom:3%;
+  margin:0 auto;
+  text-align: center;
+  margin-bottom:3%;
 }
 .inf{
-	border:1px solid black;
-	table-layout: auto;
-	margin: 0 auto;
-	width:50%;
-	margin-top:0.5%;
-	}
+  border:1px solid black;
+  table-layout: auto;
+  margin: 0 auto;
+  width:50%;
+  margin-top:0.5%;
+  }
 td{
-	text-align: center;
+  text-align: center;
 }
 tr{
  background-color: #5dade2 ;
@@ -110,8 +110,8 @@ th{
   background: #CDBB79;
 }
 th.inf,tr.inf{
-	text-align: center;
-	margin:2%;
+  text-align: center;
+  margin:2%;
 }
 .inf caption{
   text-transform: uppercase;
@@ -127,9 +127,9 @@ th.inf,tr.inf{
   border: 10px solid pink;
 }
 .dd,.rr{
-	margin-top:0;
-	margin-bottom: 1%;
-	  background-color: red;
+  margin-top:0;
+  margin-bottom: 1%;
+    background-color: red;
   background-image:
     linear-gradient(
       to right, 
@@ -138,12 +138,12 @@ th.inf,tr.inf{
       rgb(255, 255, 0), 
       green
     );
-	
+  
 }
 #ddd,#rrr{
-	margin-top: 10%;
-	padding-top:1%;
-	  background-color: red;
+  margin-top: 10%;
+  padding-top:1%;
+    background-color: red;
   background-image:
     radial-gradient(
       yellow,
@@ -160,7 +160,7 @@ margin:0.5%;
 
 }
 h3{
-  font-color:#000000; 	
+  font-color:#000000;   
   text-align: center;
   font-size:150%;
   padding: 0.1%;
@@ -170,18 +170,18 @@ h3{
 h2{
     clear:both;
     text-align: center;
-		font-size:170%;
-		width:33%;
-		margin: 0 auto;
-		margin-top:0.1%;
+    font-size:170%;
+    width:33%;
+    margin: 0 auto;
+    margin-top:0.1%;
     border: 1px double #8199f0;
     background-color: #3c9e00;
     border-radius: 50%;
 }
 
 #accordion{
-	margin-top: 10%;
-	background-color: #8199F0;
+  margin-top: 10%;
+  background-color: #8199F0;
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -244,10 +244,13 @@ h2{
 
   div.gallery {
   border: 1px solid #ccc;
+  background-color: white;
+  box-shadow: 10px 10px 5px #aaaaaa;
 }
 
 div.gallery:hover {
   border: 1px solid #777;
+  box-shadow: 5px 5px 20px #55b917;
 }
 
 div.gallery img {
@@ -279,7 +282,7 @@ img{
   content: "";
   display: table;
   clear: both;
- 
+  margin:10px;
 }
 .languages{
   display: inline-block;
